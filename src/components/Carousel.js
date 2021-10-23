@@ -8,10 +8,10 @@ function Carousel(props) {
     return (
         <Container  >
             <Left onClick={prev}>
-                <img src='images/icon-angle-left.svg' />
+                <img src='images/icon-angle-left.svg' alt='left arrow'/>
             </Left>
             <Right  onClick={next}  >
-                <img src='images/icon-angle-right.svg' />
+                <img src='images/icon-angle-right.svg' alt='right arrow'/>
             </Right>
         </Container>
     )

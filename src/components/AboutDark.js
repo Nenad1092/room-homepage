@@ -5,7 +5,7 @@ function AboutDark() {
     return (
         <Container>
             <DarkImage>
-                <img src={process.env.PUBLIC_URL + `images/image-about-dark.jpg`} />
+                <img src={process.env.PUBLIC_URL + `images/image-about-dark.jpg`}  alt='Black Armchairs and a Table' />
             </DarkImage>
         </Container>
     )

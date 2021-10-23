@@ -21,7 +21,7 @@ function Discover(props) {
                 })}
                 <DiscoverButton>
                 <p>S H O P &nbsp; &nbsp; N O W</p> 
-                <img src='/images/icon-arrow.svg' />
+                <img src='/images/icon-arrow.svg' alt='arrow' />
             </DiscoverButton>
         </Container>
     )
