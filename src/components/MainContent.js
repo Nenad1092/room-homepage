@@ -29,7 +29,7 @@ function MainContent() {
                 {SliderData.map((obj, index) => {
                 if(index === slideIndex) return (
                     <SliderImage key={obj.id}>
-                        <img src={process.env.PUBLIC_URL + `${obj.image}`} alt='Slider Img'/>
+                        <img src={`${obj.image}`} alt='Slider Img'/>
                     </SliderImage>
                 )
                 })}
