@@ -145,6 +145,15 @@ const Nav = styled.div`
             color: black;
         }
     }
+    @media (max-width: 420px) {
+        font-size: 10px;
+        margin-left: 0;
+        a{
+            margin-rgiht: 0;
+
+        }
+    }
+    
 `
 const Hamburger = styled.div`
     cursor: pointer;
