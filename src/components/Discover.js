@@ -21,7 +21,7 @@ function Discover(props) {
                 })}
                 <DiscoverButton>
                 <p>S H O P &nbsp; &nbsp; N O W</p> 
-                <img src='/images/icon-arrow.svg' alt='arrow' />
+                <img src={process.env.PUBLIC_URL + '/images/icon-arrow.svg'} alt='arrow' />
             </DiscoverButton>
         </Container>
     )
