@@ -5,7 +5,7 @@ function AboutLight() {
     return (
         <Container>
             <LightImage>
-                <img src={process.env.PUBLIC_URL + `images/image-about-light.jpg`} alt='White Chair' />
+                <img src={process.env.PUBLIC_URL + `/images/image-about-light.jpg`} alt='White Chair' />
             </LightImage>
         </Container>
     )
