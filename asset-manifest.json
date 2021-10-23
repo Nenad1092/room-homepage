@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/room-homepage-challenge/static/css/main.91201d42.chunk.css",
+    "main.js": "/room-homepage-challenge/static/js/main.66bd32c3.chunk.js",
+    "main.js.map": "/room-homepage-challenge/static/js/main.66bd32c3.chunk.js.map",
+    "runtime-main.js": "/room-homepage-challenge/static/js/runtime-main.035de1da.js",
+    "runtime-main.js.map": "/room-homepage-challenge/static/js/runtime-main.035de1da.js.map",
+    "static/js/2.b1570222.chunk.js": "/room-homepage-challenge/static/js/2.b1570222.chunk.js",
+    "static/js/2.b1570222.chunk.js.map": "/room-homepage-challenge/static/js/2.b1570222.chunk.js.map",
+    "static/js/3.2607afb4.chunk.js": "/room-homepage-challenge/static/js/3.2607afb4.chunk.js",
+    "static/js/3.2607afb4.chunk.js.map": "/room-homepage-challenge/static/js/3.2607afb4.chunk.js.map",
+    "index.html": "/room-homepage-challenge/index.html",
+    "static/css/main.91201d42.chunk.css.map": "/room-homepage-challenge/static/css/main.91201d42.chunk.css.map",
+    "static/js/2.b1570222.chunk.js.LICENSE.txt": "/room-homepage-challenge/static/js/2.b1570222.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.035de1da.js",
+    "static/js/2.b1570222.chunk.js",
+    "static/css/main.91201d42.chunk.css",
+    "static/js/main.66bd32c3.chunk.js"
+  ]
+}
