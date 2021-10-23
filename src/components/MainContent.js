@@ -29,17 +29,17 @@ function MainContent() {
                 {SliderData.map((obj, index) => {
                 if(index === slideIndex) return (
                     <SliderImage key={obj.id}>
-                        <img src={`${obj.image}`} alt='Slider Img'/>
+                        <img src={process.env.PUBLIC_URL + `${obj.image}`} alt='Slider Img'/>
                     </SliderImage>
                 )
                 })}
                 <NavBar isOpen={isOpen}>
                     <Hamburger onClick={() => setIsOpen(!isOpen)}>
-                        <img src={isOpen !== true ? 'images/icon-hamburger.svg' : 'images/icon-close.svg'} alt='Hamburger Menu or X Button'/>
+                        <img src={isOpen !== true ? process.env.PUBLIC_URL +'/images/icon-hamburger.svg' : process.env.PUBLIC_URL +'/images/icon-close.svg'} alt='Hamburger Menu or X Button'/>
                     </Hamburger>
 
                     <Logo isOpen={isOpen}>
-                        <img src='images/logo.svg' alt='Logo img'/>
+                        <img src={process.env.PUBLIC_URL +'/images/logo.svg'} alt='Logo img'/>
                     </Logo>
                     
                     <Nav isOpen={isOpen}>
