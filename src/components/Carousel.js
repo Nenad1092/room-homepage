@@ -8,7 +8,7 @@ function Carousel(props) {
     return (
         <Container  >
             <Left onClick={prev}>
-                <img src='images/icon-angle-left.svg' alt='left arrow'/>
+                <img src={process.env.PUBLIC_URL +'/images/icon-angle-left.svg'} alt='left arrow'/>
             </Left>
             <Right  onClick={next}  >
                 <img src='images/icon-angle-right.svg' alt='right arrow'/>

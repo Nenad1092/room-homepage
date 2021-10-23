@@ -35,11 +35,11 @@ function MainContent() {
                 })}
                 <NavBar isOpen={isOpen}>
                     <Hamburger onClick={() => setIsOpen(!isOpen)}>
-                        <img src={isOpen !== true ? 'images/icon-hamburger.svg' : 'images/icon-close.svg'} alt='Hamburger Menu or X Button'/>
+                        <img src={isOpen !== true ? process.env.PUBLIC_URL +'/images/icon-hamburger.svg' : process.env.PUBLIC_URL +'/images/icon-close.svg'} alt='Hamburger Menu or X Button'/>
                     </Hamburger>
 
                     <Logo isOpen={isOpen}>
-                        <img src='images/logo.svg' alt='Logo img'/>
+                        <img src={process.env.PUBLIC_URL +'/images/logo.svg'} alt='Logo img'/>
                     </Logo>
                     
                     <Nav isOpen={isOpen}>
